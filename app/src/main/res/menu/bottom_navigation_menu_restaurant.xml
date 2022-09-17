@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        >
+
+    </item>
+    <item
+        android:id="@+id/item_category"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Categorias"
+        >
+
+    </item>
+    <item
+        android:id="@+id/item_productos"
+        android:icon="@drawable/ic_baseline_local_pizza_24"
+        android:title="Productos"
+        >
+
+    </item>
+    <item
+    android:id="@+id/item_profile"
+    android:icon="@drawable/ic_baseline_person_24"
+    android:title="Perfil"
+    >
+
+</item>
+</menu>

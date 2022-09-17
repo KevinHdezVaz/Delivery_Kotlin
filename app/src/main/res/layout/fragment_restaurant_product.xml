@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.restaurant.RestaurantProductFragment">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+         <EditText
+             android:id="@+id/name"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginRight="20dp"
+             android:background="@drawable/edittext_custom"
+             android:hint="Nombre del producto"
+             android:inputType="text"
+             android:padding="15dp"
+             android:textColor="@color/black" />
+         <EditText
+             android:id="@+id/descripcion_producto"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginRight="20dp"
+             android:background="@drawable/edittext_custom"
+             android:hint="Nombre del producto"
+             android:inputType="text"
+             android:padding="15dp"
+             android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

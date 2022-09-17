@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.clients.ClientProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+         android:orientation="vertical"
+        android:layout_height="wrap_content"
+
+          >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="150dp"
+                        android:id="@+id/circleimage_user"
+                        android:layout_margin="50dp"
+                      app:civ_circle_background_color="@color/gray"
+                        app:civ_border_width="5dp"
+                        android:layout_gravity="center"
+                        android:src="@mipmap/ic_launcher"
+                        app:civ_border_color="@color/gray"
+                        android:layout_height="150dp"
+
+                       />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_baseline_person_pin_24"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_name"
+                android:text="Nombre de Usuario "
+
+                >
+
+
+        </TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ic_baseline_email_24"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email "
+                android:id="@+id/textview_email"
+
+                >
+
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+
+            >
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_local_phone_24"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+52 00000000 "
+                android:id="@+id/textview_phone"
+
+                >
+
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_marginBottom="40dp"
+        android:layout_height="match_parent"
+
+        >
+
+        <Button
+            android:id="@+id/btn_select_rol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+             android:background="@drawable/rounded_button"
+            android:text="Seleccionar Rol"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/gray" />
+
+        <Button
+            android:background="@drawable/rounded_button"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/btn_updated_profile"
+             android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+               android:layout_marginBottom="20dp"
+             android:layout_height="wrap_content"
+            android:text="Editar Perfil" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

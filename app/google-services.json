@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "66231161542",
+    "project_id": "kotlin-delivery-efca2",
+    "storage_bucket": "kotlin-delivery-efca2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66231161542:android:1c088b9734fad371c83dc7",
+        "android_client_info": {
+          "package_name": "com.optic.kev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66231161542-qepa7hfora29ucj4k7ek65m1uvr2ft51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC04D0ifp57tiV6qOnuZaLdmU9C_uEKc2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66231161542-qepa7hfora29ucj4k7ek65m1uvr2ft51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

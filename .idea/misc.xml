@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/drawable/edittext_custom.xml" value="0.23125" />
+        <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/drawable/rounded_button.xml" value="0.23125" />
+        <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/layout/activity_client_home.xml" value="0.2857142857142857" />
+        <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/layout/activity_main.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/layout/activity_register.xml" value="0.18857142857142858" />
+        <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/layout/activity_select_roles.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/layout/cardview_roles.xml" value="0.2857142857142857" />
+        <entry key="app/src/main/res/layout/action_toolbar.xml" value="0.33229166666666665" />
+        <entry key="app/src/main/res/layout/activity_client_home.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_client_update.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_delivery_home.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_imagenes.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_restaurant_home.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_select_roles.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/cardview_category.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/cardview_roles.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/fragment_client_category.xml" value="0.3177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_client_profile.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/fragment_clients_orders.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/fragment_delivery_ordesr.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/fragment_restaurant_category.xml" value="0.3177083333333333" />
+        <entry key="app/src/main/res/layout/fragment_restaurant_orders.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/fragment_restaurant_product.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu_delivery.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu_restaurant.xml" value="0.33177083333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
