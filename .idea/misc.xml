@@ -12,7 +12,9 @@
         <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/layout/cardview_roles.xml" value="0.2857142857142857" />
         <entry key="app/src/main/res/layout/action_toolbar.xml" value="0.33229166666666665" />
         <entry key="app/src/main/res/layout/activity_client_home.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_client_products_details.xml" value="0.3177083333333333" />
         <entry key="app/src/main/res/layout/activity_client_update.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_clients_product_list.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_delivery_home.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_imagenes.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33177083333333335" />
@@ -20,6 +22,7 @@
         <entry key="app/src/main/res/layout/activity_restaurant_home.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_select_roles.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/cardview_category.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/cardview_product.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/cardview_roles.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/fragment_client_category.xml" value="0.3177083333333333" />
         <entry key="app/src/main/res/layout/fragment_client_profile.xml" value="0.33177083333333335" />

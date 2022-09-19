@@ -20,6 +20,12 @@
         android:theme="@style/Theme.DeliveryKotlin"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.client.products.detail.ClientProductsDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.client.products.list.ClientsProductListActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.client.update.ClientUpdate"
             android:exported="false" />
         <activity
@@ -39,7 +45,7 @@
             android:exported="true" />
         <activity
             android:name=".activities.ImagenesActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".activities.MainActivity"
             android:exported="true">

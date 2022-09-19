@@ -1,6 +1,7 @@
 package com.optic.kev.api
 
 import com.optic.kev.routes.CategoryRoutes
+import com.optic.kev.routes.ProductsRoutes
 import com.optic.kev.routes.UsersRoutes
 
 
@@ -18,5 +19,8 @@ class ApiRoutes {
 
     fun getCategoryRoutes(token:String): CategoryRoutes {
         return retrofit.getclientWithToken(apiUrl, token).create(CategoryRoutes::class.java)
+    }
+    fun getProductsroutes(token:String): ProductsRoutes {
+        return retrofit.getclientWithToken(apiUrl, token).create(ProductsRoutes::class.java)
     }
 }

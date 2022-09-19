@@ -21,6 +21,7 @@ import com.optic.kev.models.ResponseHttp
 import com.optic.kev.models.User
 import com.optic.kev.providers.CategoryProvider
 import com.optic.kev.utils.SharedPref
+import com.tommasoberlose.progressdialog.ProgressDialogFragment
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -64,11 +65,14 @@ sharedPref = SharedPref(requireActivity())
 
     private fun createCategory() {
          val name = edittextCategory?.text.toString()
+        ProgressDialogFragment.showProgressBar(requireActivity())
+
         if(imageFile != null){
 
             val category = Category(name = name)
             categoriesProvider?.create(imageFile!!, category!!)?.enqueue(object: Callback<ResponseHttp> {
                 override fun onResponse(call: Call<ResponseHttp>, response: Response<ResponseHttp>) {
+                    ProgressDialogFragment.hideProgressBar(requireActivity())
 
                     Log.d("TAG", "RESPONSE: $response")
                     Log.d("TAG", "BODY: ${response.body()}")
@@ -81,6 +85,7 @@ sharedPref = SharedPref(requireActivity())
                 }
 
                 override fun onFailure(call: Call<ResponseHttp>, t: Throwable) {
+                    ProgressDialogFragment.hideProgressBar(requireActivity())
                     Log.d("TAG", "Error: ${t.message}")
                 }
 

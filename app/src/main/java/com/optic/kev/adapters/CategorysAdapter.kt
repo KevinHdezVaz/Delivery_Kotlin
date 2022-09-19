@@ -14,6 +14,7 @@ import com.optic.kev.activities.client.home.ClientHomeActivity
 import com.optic.kev.activities.delivery.home.DeliveryHome
 import com.optic.kev.activities.restaurente.home.RestaurantHome
 import com.optic.kev.R
+import com.optic.kev.activities.client.products.list.ClientsProductListActivity
 import com.optic.kev.models.Category
 
 import com.optic.kev.models.Rol
@@ -41,14 +42,14 @@ class CategorysAdapter(val context: Activity, val categories: ArrayList<Category
         holder.textViewCategory.text = category.name
         Glide.with(context).load(category.image).into(holder.imageViewCategory)
 
-
-//        holder.itemView.setOnClickListener { goToRol(rol) }
+         holder.itemView.setOnClickListener { gotoProducts(category) }
     }
 
-//    private fun goToRol(rol: Rol) {
-//        val i = Intent(context, RestaurantHomeActivity::class.java)
-//        context.startActivity(i)
-//    }
+    private fun gotoProducts(category: Category) {
+         val i = Intent(context, ClientsProductListActivity::class.java)
+        i.putExtra("idCategory",category.id)
+        context.startActivity(i)
+     }
 
     class CategoriesViewHolder(view: View): RecyclerView.ViewHolder(view) {
 
