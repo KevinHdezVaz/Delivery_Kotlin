@@ -108,8 +108,9 @@
             android:textStyle="bold" />
 
     </LinearLayout>
-    <Button
-        android:id="@+id/btn_updated_profile"
+
+        <Button
+        android:id="@+id/btnAgregarProduct"
         android:layout_width="wrap_content"
 
         android:layout_height="50dp"
@@ -117,12 +118,12 @@
         android:layout_alignParentEnd="true"
 
         android:layout_alignParentBottom="true"
-         android:layout_marginStart="40dp"
+        android:layout_marginStart="40dp"
 
         android:layout_marginLeft="40dp"
-        android:layout_marginBottom="30dp"
-         android:layout_marginEnd="40dp"
+        android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
+        android:layout_marginBottom="30dp"
         android:background="@drawable/rounded_button"
         android:gravity="center"
         android:text="Agregar Producto" />

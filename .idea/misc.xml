@@ -11,7 +11,10 @@
         <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/layout/activity_select_roles.xml" value="0.21510416666666668" />
         <entry key="..\:/Users/Jonathan/Documents/PROGRAMACION/DeliveryKotlinUdemy/app/src/main/res/layout/cardview_roles.xml" value="0.2857142857142857" />
         <entry key="app/src/main/res/layout/action_toolbar.xml" value="0.33229166666666665" />
+        <entry key="app/src/main/res/layout/activity_client_addres_create.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_client_address_list.xml" value="0.3177083333333333" />
         <entry key="app/src/main/res/layout/activity_client_home.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_client_map.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_client_products_details.xml" value="0.3177083333333333" />
         <entry key="app/src/main/res/layout/activity_client_update.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_clients_product_list.xml" value="0.33177083333333335" />
@@ -21,6 +24,9 @@
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_restaurant_home.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/activity_select_roles.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/layout/activity_shopping_bag.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/cardview_address.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/cardview_bag_shop.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/cardview_category.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/cardview_product.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/layout/cardview_roles.xml" value="0.33177083333333335" />
@@ -34,6 +40,7 @@
         <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu_delivery.xml" value="0.33177083333333335" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu_restaurant.xml" value="0.33177083333333335" />
+        <entry key="app/src/main/res/menu/menu_shopping_bag.xml" value="0.33177083333333335" />
       </map>
     </option>
   </component>

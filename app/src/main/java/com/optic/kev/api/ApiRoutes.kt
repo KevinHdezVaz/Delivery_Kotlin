@@ -1,5 +1,6 @@
 package com.optic.kev.api
 
+import com.optic.kev.routes.AddressRoutes
 import com.optic.kev.routes.CategoryRoutes
 import com.optic.kev.routes.ProductsRoutes
 import com.optic.kev.routes.UsersRoutes
@@ -23,4 +24,11 @@ class ApiRoutes {
     fun getProductsroutes(token:String): ProductsRoutes {
         return retrofit.getclientWithToken(apiUrl, token).create(ProductsRoutes::class.java)
     }
+
+
+
+    fun getAddressRoutes(token: String): AddressRoutes {
+        return retrofit.getclientWithToken(apiUrl, token).create(AddressRoutes::class.java)
+    }
+
 }
